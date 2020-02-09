@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/picture"
+                android:layout_width="298dp"
+                android:layout_height="183dp"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="0.2" />
+
+            <Button
+                android:id="@+id/galleryopen"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:text="Gallery Open"
+                android:textSize="18dp"
+
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="선택"
+            android:gravity="center"
+            android:layout_weight="0.4"   />
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="아이"
+            android:layout_weight="0.3" />
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="치매 환자"
+            android:layout_weight="0.65" />
+
+      </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:text="성별"
+                android:gravity="center"
+                android:layout_weight="0.3"   />
+            <CheckBox
+                android:id="@+id/checkbox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="남성"
+                android:layout_weight="0.3" />
+            <CheckBox
+                android:id="@+id/checkbox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="여성"
+                android:layout_weight="0.65" />
+
+        </LinearLayout>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:text="이름"
+                android:layout_weight="1"
+                />
+
+            <EditText
+                android:layout_weight="0.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="24sp"
+                android:inputType="text"
+                android:id="@+id/edittextname"
+                android:imeOptions="actionNext" />
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:text="나이"
+
+                android:layout_weight="1"
+                />
+
+            <EditText
+                android:layout_weight="0.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="24sp"
+                android:inputType="number"
+                android:id="@+id/edittextage"
+                android:imeOptions="actionNext" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:hint="@android:string/emptyPhoneNumber"
+                android:text="보호자 번호"
+                android:imeOptions="actionNext"/>
+
+            <EditText
+                android:layout_weight="0.5"
+                android:id="@+id/edittextphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="24sp"
+                android:layout_marginLeft="20dp"
+                android:inputType="numberSigned"
+                android:digits="0123456789-"
+                android:imeOptions="actionNext"/>
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:text="인상착의" />
+
+            <EditText
+                android:layout_weight="0.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="24sp"
+                android:inputType="text"
+                android:id="@+id/edittextgita"
+                android:imeOptions="actionSend"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="3"
+                android:textSize="24dp"
+                android:text="정보 등록"
+                android:id="@+id/registerInfoCommit"/>
+
+        </TableRow>
+
+
+
+
+    </TableLayout>
+
+
+
+
+
+
+
+</LinearLayout>

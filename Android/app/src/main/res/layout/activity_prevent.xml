@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. 미아발생 예방대책"
+            android:textSize="25dp"/>
+
+    // 우리아이찾기 가이드 안내
+   <Button
+       android:id="@+id/findguide"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="아이찾기 가이드"
+       />
+    // 실종아동전문기관 url 연결
+    <Button
+        android:id="@+id/siteurl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="실종아동전문기관 사이트"
+        />
+
+   <Button
+        android:id="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전화로 상담해보세요"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. 치매환자 예방대책"
+            android:textSize="25dp"/>
+
+
+
+        <Button
+        android:id="@+id/dementiapatient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="치매에 대해 궁금하세요?"
+        />
+
+        <Button
+            android:id="@+id/dementiaprevent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="치매 자가진단" />
+
+        <Button
+        android:id="@+id/dementiapatientcall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전화로 상담해보세요"
+        />
+
+
+
+    </LinearLayout>
+</LinearLayout>

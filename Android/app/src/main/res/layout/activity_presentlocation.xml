@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+
+    <fragment
+        android:id="@+id/presentlocation"
+        android:layout_width="match_parent"
+        android:layout_height="457dp"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_weight="0.8"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/Geofenceclick"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="지오펜스 거리 계산" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

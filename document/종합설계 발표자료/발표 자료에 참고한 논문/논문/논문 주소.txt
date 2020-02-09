@@ -1,0 +1,11 @@
+1. 미아방지를 위한 USN 기반 보호대상 이동체 위치확인 시스템
+http://www.dbpia.co.kr.library.kpu.ac.kr:8010/Journal/ArticleDetail/NODE01067867?TotalCount=19&Seq=1&q=%5B%20%EB%AF%B8%EC%95%84%EB%B0%A9%EC%A7%80%C2%A7coldb%C2%A72%C2%A751%C2%A73%5D&searchWord=%EC%A0%84%EC%B2%B4%3D%5E%24%20%EB%AF%B8%EC%95%84%EB%B0%A9%EC%A7%80%5E*&Multimedia=0&isIdentifyAuthor=0&Collection=0&SearchAll=%20%EB%AF%B8%EC%95%84%EB%B0%A9%EC%A7%80&isFullText=0&specificParam=0&SearchMethod=0&Sort=1&SortType=desc&Page=1&PageSize=20
+
+2. 임베디드 보드를 이용한 미아 위치 정보 시스템
+=> 구글검색
+
+3. Child alert system
+https://patents.google.com/patent/US7084771B2/enq=Child&q=alert&q=system&oq=Child+alert+system
+
+4. Development of MMRS (Mind Map and Relief System), an Information Sharing System for Children’s Safety
+https://www.sciencedirect.com/science/article/pii/S1877050913009514
